@@ -1,0 +1,17 @@
+{
+  "name": "hasher",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm run serve",
+    "server": "cd server && node index.js",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
